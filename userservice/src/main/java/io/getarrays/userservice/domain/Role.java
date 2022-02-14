@@ -1,6 +1,5 @@
 package io.getarrays.userservice.domain;
 
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
