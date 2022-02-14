@@ -18,7 +18,6 @@ public class UserServiceImpl implements UserService{
 	private final UserRepo userRepo;
 	private final RoleRepo roleRepo;
 	
-	
 	public User saveUser(User user) {
 		// TODO Auto-generated method stub
 		log.info("Saving new user {} to the database",user.getName());

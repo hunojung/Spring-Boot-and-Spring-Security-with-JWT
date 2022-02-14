@@ -50,5 +50,4 @@ public class UserResource {
 class RoleToUserForm{
 	private String username;
 	private String roleName;
-	
 }
