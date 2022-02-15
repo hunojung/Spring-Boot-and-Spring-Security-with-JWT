@@ -13,3 +13,11 @@ Practice Spring Boot and Spring Security with JWT including Access and Refresh T
 ## Maven 설치
 
 https://devpad.tistory.com/19
+
+## Security with JSON Web Token
+
+Client -> (POST/login, username/password) -> Application
+
+Client <- (Json Web Token (JWT) ) <- Application
+
+Client(JWT) -> (GET/users, JWT ) -> Application
